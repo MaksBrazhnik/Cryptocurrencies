@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CafeLib.BsvSharp.Api.CoinGecko" Version="2.0.11" />
+    <PackageReference Include="CoinGeckoAPI" Version="3.0.1.2" />
+    <PackageReference Include="CoinGeckoAsyncApi" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>

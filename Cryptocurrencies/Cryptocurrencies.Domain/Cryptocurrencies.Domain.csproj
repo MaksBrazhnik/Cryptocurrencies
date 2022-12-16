@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CafeLib.BsvSharp.Api.CoinGecko" Version="2.0.11" />
+    <PackageReference Include="CoinGeckoAPI" Version="3.0.1.2" />
+    <PackageReference Include="CoinGeckoAsyncApi" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>
